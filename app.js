@@ -13,4 +13,4 @@ const fromYenToPound = function (yen){
     return pound;
 }
 
-module.exports = fromEuroToDollar, fromYenToPound, fromDollarToYen;
+module.exports = {fromEuroToDollar, fromYenToPound, fromDollarToYen}
